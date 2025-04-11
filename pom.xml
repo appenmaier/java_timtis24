@@ -39,6 +39,18 @@
          <version>5.14.2</version>
          <scope>test</scope>
       </dependency>
+      <!-- JavaFX -->
+      <dependency>
+         <groupId>org.openjfx</groupId>
+         <artifactId>javafx-controls</artifactId>
+         <version>23.0.1</version>
+      </dependency>
+      <!-- Java FXML -->
+      <dependency>
+         <groupId>org.openjfx</groupId>
+         <artifactId>javafx-fxml</artifactId>
+         <version>23.0.1</version>
+      </dependency>
    </dependencies>
 
 </project>
