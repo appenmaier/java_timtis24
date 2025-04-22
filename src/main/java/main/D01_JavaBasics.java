@@ -16,7 +16,7 @@ public class D01_JavaBasics {
       arithmeticOperations();
       cases();
       loops();
-      strings();
+      stringsAndArrays();
       io();
    }
 
@@ -116,7 +116,7 @@ public class D01_JavaBasics {
       }
    }
 
-   public static void strings() {
+   public static void stringsAndArrays() {
       String names = "Max"; // C: char names[50] = "Max";
 
       int length = names.length(); // C: int length = strlen(names);
@@ -156,6 +156,7 @@ public class D01_JavaBasics {
       // cout << "Bitte eine ganze Zahl eingeben: ";
       // cin >> number;
 
+      @SuppressWarnings("resource")
       Scanner scanner = new Scanner(System.in);
       System.out.print("Bitte eine ganze Zahl eingeben: ");
       int number = scanner.nextInt();
