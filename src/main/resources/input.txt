@@ -1,0 +1,2 @@
+Daniel;42;m;TYPE_F;true
+Max;17;m;TYPE_I;false
