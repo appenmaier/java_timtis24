@@ -1,6 +1,8 @@
 package model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.ToString;
 
 /**
  * TableLight
@@ -10,20 +12,27 @@ import lombok.Getter;
  *
  */
 @Getter
+@ToString
+@EqualsAndHashCode
 public class TableLight {
 
    private boolean isConnected;
    private boolean isOn;
    private LightBulb lightBulb;
+   private final PlugType plugType;
 
-   public TableLight() {}
-
-   public TableLight(String lightBulbColor) {
-      lightBulb = new LightBulb(lightBulbColor);
+   public TableLight() {
+      plugType = PlugType.TYPE_F;
    }
 
-   public TableLight(LightBulb lightBulb) {
+   public TableLight(String lightBulbColor, PlugType plugType) {
+      lightBulb = new LightBulb(lightBulbColor);
+      this.plugType = plugType;
+   }
+
+   public TableLight(LightBulb lightBulb, PlugType plugType) {
       this.lightBulb = lightBulb;
+      this.plugType = plugType;
    }
 
    public void plugIn() {

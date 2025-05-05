@@ -1,8 +1,5 @@
 package model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 /**
  * Light Bulb
  *
@@ -10,10 +7,6 @@ import lombok.Getter;
  * @version 1.0
  *
  */
-@Getter
-@AllArgsConstructor
-public class LightBulb {
-
-   private final String color;
+public record LightBulb(String color) {
 
 }
