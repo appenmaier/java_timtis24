@@ -12,12 +12,12 @@ import lombok.ToString;
  *
  */
 @Getter
-@ToString
-@EqualsAndHashCode
-public class TableLight {
+@ToString(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
+public final class TableLight extends Light implements WiredDevice {
 
    private boolean isConnected;
-   private boolean isOn;
+   // private boolean isOn;
    private LightBulb lightBulb;
    private final PlugType plugType;
 
@@ -35,21 +35,23 @@ public class TableLight {
       this.plugType = plugType;
    }
 
+   @Override
    public void plugIn() {
       isConnected = true;
    }
 
+   @Override
    public void pullThePlug() {
       isConnected = false;
    }
 
-   public void switchOn() {
-      isOn = true;
-   }
+   // public void switchOn() {
+   // isOn = true;
+   // }
 
-   public void switchOff() {
-      isOn = false;
-   }
+   // public void switchOff() {
+   // isOn = false;
+   // }
 
    public LightBulb changeLightBulb(LightBulb newLightBulb) {
       LightBulb oldLightBulb = lightBulb;
@@ -57,13 +59,14 @@ public class TableLight {
       return oldLightBulb;
    }
 
+   @Override
    public boolean isShining() {
       // if (isConnected == true && isOn == true && lightBulb != null) {
       // return true;
       // } else {
       // return false;
       // }
-      return isConnected && isOn && lightBulb != null;
+      return isConnected && isOn() && lightBulb != null;
    }
 
 }
