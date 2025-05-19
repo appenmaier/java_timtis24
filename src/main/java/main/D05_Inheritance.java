@@ -8,6 +8,8 @@ import model.FlashLight;
 import model.Light;
 import model.LightBulb;
 import model.TableLight;
+import model.Toaster;
+import model.WiredDevice;
 
 /**
  * Inheritance
@@ -75,6 +77,23 @@ public class D05_Inheritance {
          }
          System.out.println(l.isShining()); // (Statische + Dynamische) Polymorphie
          System.out.println(l);
+      }
+
+      /* Schnittstellen */
+      List<WiredDevice> wiredDevices = new ArrayList<>();
+      wiredDevices.add(new Toaster()); // Upcast
+      wiredDevices.add(new Toaster()); // Upcast
+      wiredDevices.add(new TableLight()); // Upcast
+      wiredDevices.add(new Toaster()); // Upcast
+      wiredDevices.add(new TableLight()); // Upcast
+
+      for (WiredDevice d : wiredDevices) {
+         d.plugIn(); // (Dynamische) Polymorphie
+         if (d instanceof TableLight t) { // Downcast
+            t.switchOn();
+            t.changeLightBulb(new LightBulb("white"));
+         }
+         System.out.println(d);
       }
    }
 
