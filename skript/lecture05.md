@@ -23,3 +23,17 @@
 - [Doku](https://jappuccini.github.io/java-docs/production/documentation/comparators)
 - [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/comparators/)
 - [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D06_Comparators.java)
+
+## Grafische Benutzeroberflächen, JavaFX
+
+**Abbildungen**
+
+![image](https://github.com/user-attachments/assets/3ac426fb-9d0d-4bdd-ac2a-f638dae747bc)
+![image](https://github.com/user-attachments/assets/3e9203c6-847d-4073-b053-ce6c3b10c268)
+![image](https://github.com/user-attachments/assets/6f85e5e5-5876-4cc1-b3e3-0b08497b3825)
+
+**Links**
+
+- [Doku: Grafische Benutzeroberflächen](https://jappuccini.github.io/java-docs/production/documentation/gui)
+- [Doku: JavaFX](https://jappuccini.github.io/java-docs/production/documentation/javafx)
+- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/edu/jappuccini/demos/io/MainClass.java)
