@@ -6,7 +6,7 @@
 
 [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/edu/jappuccini/demos/io2/MainClass.java)
 
-## Assoziativspeicher (Maps)
+## Schlüsseltransformationen (Hashing), Bäume, Assoziativspeicher (Maps)
 
 **Abbildung**
 
@@ -14,8 +14,12 @@
 
 **Links**
 
-- [Doku](https://jappuccini.github.io/java-docs/production/documentation/maps)
-- [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/maps/)
+- [Doku: Schlüsseltransformationen (Hashing)](https://jappuccini.github.io/java-docs/production/documentation/hashing)
+- [Doku: Bäume](https://jappuccini.github.io/java-docs/production/documentation/trees)
+- [Doku: Assoziativspeicher (Maps)](https://jappuccini.github.io/java-docs/production/documentation/maps)
+- [Übungsaufgaben: Schlüsseltransformationen (Hashing)](https://jappuccini.github.io/java-docs/production/exercises/hashing/)
+- [Übungsaufgaben: Bäume](https://jappuccini.github.io/java-docs/production/exercises/trees/)
+- [Übungsaufgaben: Assoziativspeicher (Maps)](https://jappuccini.github.io/java-docs/production/exercises/maps/)
 - [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D07_Maps.java)
 
 ## Innere Klassen (Inner Classes), Lambda-Ausdrücke (Lambdas)
