@@ -28,6 +28,9 @@ public class InputController {
       String text = inputField.getText();
       System.out.println(text);
 
+      Model model = Model.getInstance();
+      model.setValue(text);
+
       Parent root = FXMLLoader.load(getClass().getResource("OutputView.fxml"));
       Scene newScene = new Scene(root);
       Node node = (Node) event.getSource();

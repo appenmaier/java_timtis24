@@ -19,7 +19,7 @@ public class App extends Application {
    public void start(Stage primaryStage) throws Exception {
       Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
       Scene scene = new Scene(root);
-      primaryStage.setTitle("My Super Duper Input Output App");
+      primaryStage.setTitle("Input Output App");
       primaryStage.setResizable(false);
       primaryStage.setScene(scene);
       primaryStage.show();

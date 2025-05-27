@@ -10,7 +10,7 @@
 	xmlns:fx="http://javafx.com/fxml/1"
 	fx:controller="edu.jappuccini.demos.io2.OutputController">
 	<children>
-		<Label fx:id="outputField" text="Lorem Ipsum"/>
+		<Label fx:id="outputField"/>
 	</children>
 	<padding>
 		<Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />

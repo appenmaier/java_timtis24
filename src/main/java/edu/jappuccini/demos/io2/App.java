@@ -15,11 +15,15 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
+   public static void main(String[] args) {
+      launch(args);
+   }
+
    @Override
    public void start(Stage primaryStage) throws Exception {
       Parent root = FXMLLoader.load(getClass().getResource("InputView.fxml"));
       Scene scene = new Scene(root);
-      primaryStage.setTitle("My Super Duper Input Output App 2.0");
+      primaryStage.setTitle("Input Output App 2.0");
       primaryStage.setResizable(false);
       primaryStage.setScene(scene);
       primaryStage.show();
