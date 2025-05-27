@@ -19,3 +19,12 @@
 - [Doku: Referenzen und Objekte](https://jappuccini.github.io/java-docs/production/documentation/references-and-objects)
 - [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/oo/)
 - [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D02_ObjectOrientedProgramming.java)
+
+## Datenklassen (Records), Maven, Lombok
+
+**Links**
+
+- [Doku: Datenklassen (Records)](https://jappuccini.github.io/java-docs/production/documentation/records)
+- [Doku: Maven](https://jappuccini.github.io/java-docs/production/documentation/maven)
+- [Doku: Lombok](https://jappuccini.github.io/java-docs/production/documentation/lombok)
+- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D02_ObjectOrientedProgramming.java)
