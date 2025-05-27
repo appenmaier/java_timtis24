@@ -1,20 +1,5 @@
 # Vorlesung 5 (19. Mai 2025)
 
-## Abstrakte und finale Klassen und Methoden, Schnittstellen (Interfaces), Listen
-
-**Abbildung**
-
-![image](https://github.com/user-attachments/assets/671be259-1195-4eee-8848-eea0bc030e9e)
-
-**Links**
-
-- [Doku: Abstrakte und finale Klassen und Methoden](https://jappuccini.github.io/java-docs/production/documentation/abstract-and-final)
-- [Doku: Schnittstellen (Interfaces)](https://jappuccini.github.io/java-docs/production/documentation/interfaces)
-- [Doku: Listen](https://jappuccini.github.io/java-docs/production/documentation/lists)
-- [Übungsaufgaben: Abstrakte und finale Klassen und Methoden](https://jappuccini.github.io/java-docs/production/exercises/abstract-and-final/)
-- [Übungsaufgaben: Schnittstellen (Interfaces)](https://jappuccini.github.io/java-docs/production/exercises/interfaces/)
-- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D05_Inheritance.java)
-
 ## Klassendiagramme
 
 **Abbildung**
