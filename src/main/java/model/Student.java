@@ -1,5 +1,7 @@
 package model;
 
+import java.io.Serializable;
+
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -18,7 +20,9 @@ import lombok.ToString;
 @Getter
 @Setter
 @EqualsAndHashCode
-public class Student implements Comparable<Student> {
+public class Student implements Comparable<Student>, Serializable {
+
+   private static final long serialVersionUID = 1L;
 
    private final String id;
    private final String name;
