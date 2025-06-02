@@ -36,3 +36,6 @@
 
 ## Datenströme (IO Streams)
 
+- [Doku](https://jappuccini.github.io/java-docs/production/documentation/io-streams)
+- [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/io-streams/)
+- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D11_IOStreams.java)
