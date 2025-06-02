@@ -20,9 +20,22 @@
 - [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/optionals/)
 - [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D09_Optionals.java)
 
-## OPEN
+## Java Stream API
 
-- Java Stream API
-- Datenströme (IO Streams)
-- Simple Logging Facade for Java (SLF4J)
-- Generische Programmierung
+**Abbildungen**
+
+![image](https://github.com/user-attachments/assets/0ba96b8f-6cc4-422d-a3a7-c69121a256b5)
+![image](https://github.com/user-attachments/assets/311e7e16-48c9-4c62-b267-a7f0f32ca582)
+![image](https://github.com/user-attachments/assets/0fab1d2d-3c68-4619-98f6-69672afa9390)
+
+**Links**
+
+- [Doku](https://jappuccini.github.io/java-docs/production/documentation/java-stream-api)
+- [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/java-stream-api/)
+- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D10_JavaStreamApi.java)
+
+## Datenströme (IO Streams)
+
+- [Doku](https://jappuccini.github.io/java-docs/production/documentation/io-streams)
+- [Übungsaufgaben](https://jappuccini.github.io/java-docs/production/exercises/io-streams/)
+- [Demo](https://github.com/appenmaier/java_timtis24/blob/main/src/main/java/main/D11_IOStreams.java)
