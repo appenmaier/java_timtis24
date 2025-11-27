@@ -1,4 +1,4 @@
-# Vorlesung 1 (14. April 2025)
+# Termin 1 (14. April 2025)
 
 ## Grundlegende Sprachelemente in Java
 

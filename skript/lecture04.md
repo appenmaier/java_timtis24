@@ -1,4 +1,4 @@
-# Vorlesung 4 (12. Mai 2025)
+# Termin 4 (12. Mai 2025)
 
 ## Vererbung, (Dynamische) Polymorphie
 

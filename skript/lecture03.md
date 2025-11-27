@@ -1,4 +1,4 @@
-# Vorlesung 3 (5. Mai 2025)
+# Termin 3 (5. Mai 2025)
 
 ## Die Mutter aller Klassen
 

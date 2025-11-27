@@ -1,4 +1,4 @@
-# Vorlesung 5 (19. Mai 2025)
+# Termin 5 (19. Mai 2025)
 
 ## Klassendiagramme
 

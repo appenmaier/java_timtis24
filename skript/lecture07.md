@@ -1,4 +1,4 @@
-# Vorlesung 7 (2. Juni 2025)
+# Termin 7 (2. Juni 2025)
 
 ## Ausnahmen (Exceptions)
 
